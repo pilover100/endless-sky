@@ -301,8 +301,8 @@ outfit "Small Biochemical Cell"
 	thumbnail "outfit/small biochemical"
 	"mass" 17
 	"outfit space" -17
-	"energy generation" 1.6
-	"heat generation" 1.4
+	"energy generation" 2.0
+	"heat generation" 1.75
 	"energy capacity" 3000
 	description "This tiny generator draws energy from the metabolic byproducts of a collection of microorganisms that have been engineered by the Wanderers specifically for this purpose."
 
@@ -314,8 +314,8 @@ outfit "Large Biochemical Cell"
 	thumbnail "outfit/large biochemical"
 	"mass" 63
 	"outfit space" -63
-	"energy generation" 6.2
-	"heat generation" 4.9
+	"energy generation" 7.7
+	"heat generation" 6.125
 	"energy capacity" 7000
 	description "The Wanderers are masters of unusual and efficient technology. This bioreactor is fueled by a culture of microorganisms that produce a small electric charge."
 
@@ -370,6 +370,19 @@ outfit "Blue Sun Reactor"
 	"heat generation" 39
 	"energy capacity" 17800
 	description "As the Wanderers have begun producing heavy warships, a need has arisen for larger and larger reactor cores to power them."
+
+
+outfit "Clear Sky Shielding"
+	category "Systems"
+	licenses
+		"Wanderer Outfits"
+	cost 110000
+	thumbnail "outfit/clear sky"
+	"mass" 5
+	"outfit space" -5
+	"shield generation" 0.35
+	"shield energy" 0.6
+	description "To go alongside their wider use of fighter sized ships, the Wanderers have begun producing this tiny shield generator."
 
 
 outfit "Bright Cloud Shielding"
