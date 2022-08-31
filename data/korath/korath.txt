@@ -251,12 +251,6 @@ fleet "Korath Home"
 	cargo 3
 	personality
 		timid opportunistic
-	variant 7
-		"Korath World-Ship"
-	variant 22
-		"Korath World-Ship B"
-	variant 7
-		"Korath World-Ship C"
 	variant 3
 		"Rano'erek"
 		"'olofez" 2
@@ -292,7 +286,7 @@ fleet "Korath Large Raid"
 		"Palavret (Blaze)"
 		"'olofez" 6
 
-fleet "Korath Ember Waste Raid"
+fleet "Korath Ember Waste Raid Large"
 	government "Korath"
 	names "korath"
 	fighters "korath"
@@ -322,6 +316,12 @@ fleet "Korath Civilian Large"
 	cargo 3
 	personality
 		frugal opportunistic disables forbearing
+	variant 7
+		"Lor'nag Ik 590"
+		"Korath Chaser (Expeller)" 3
+	variant 6
+		"Lor'kas Ik 577"
+		"Korath Chaser (Expeller)" 3
 	variant 5
 		"Rano'erek (Civilian)" 2
 		"'olofez (Digger)" 4
@@ -343,12 +343,23 @@ fleet "Kor Efret Home"
 	cargo 3
 	personality
 		timid
+	variant 5
+		"Echo-Galleon"
 	variant 3
-		"Korath World-Ship"
+		"Arch-Carrack"
 	variant 1
-		"Korath World-Ship B"
-	variant 2
-		"Korath World-Ship C"
+		"Charm-Shallop"
+
+
+fleet "Kor Efret Miners"
+	government "Kor Efret"
+	names "korath"
+	fighters "korath"
+	cargo 0
+	personality
+		timid disables plunders frugal mining harvests
+	variant
+		"Charm-Shallop"
 
 
 fleet "Small Kor Sestor"
